@@ -208,44 +208,38 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget _supplierOption(BuildContext context, dynamic supplier) {
     final String supplierCode = supplier['supplierCode'];
+    final String supplierName = supplier['supplierName'];
 
     final bool isCollected = supplier['status'] == 'Collected';
 
     return ListTile(
+      tileColor: isCollected ? Colors.grey.shade200 : null,
+
       leading: Icon(
         isCollected ? Icons.check_circle : Icons.pending,
-        color: isCollected ? Colors.green : Colors.orange,
+        color: isCollected ? Colors.grey : Colors.orange,
       ),
 
-      title: Text(supplierCode),
+      title: Text('$supplierCode - $supplierName'),
 
-      subtitle: Text(isCollected ? 'Already Collected' : 'Pending'),
+      subtitle: Text(
+        isCollected ? 'Already Collected' : 'Pending',
+        style: TextStyle(color: isCollected ? Colors.grey : Colors.black),
+      ),
 
-      onTap: () {
-        Navigator.pop(context);
+      onTap: isCollected
+          ? null
+          : () {
+              Navigator.pop(context);
 
-        if (isCollected) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text('$supplierCode already collected'),
-              backgroundColor: Colors.orange,
-            ),
-          );
-
-          return;
-        }
-
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (_) => ScanCollectScreen(expectedSupplier: supplierCode),
-          ),
-        ).then((_) {
-          setState(() {
-            report = ApiService.getReport();
-          });
-        });
-      },
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) =>
+                      ScanCollectScreen(expectedSupplier: supplierCode),
+                ),
+              );
+            },
     );
   }
 
