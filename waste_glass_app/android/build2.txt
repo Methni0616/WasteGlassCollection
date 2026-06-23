@@ -1,0 +1,534 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/TUF/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Initialized native services in: C:\Users\TUF\.gradle\native
+Initialized jansi services in: C:\Users\TUF\.gradle\native
+The client will now receive all logging from the daemon (pid: 10416). The daemon log file: C:\Users\TUF\.gradle\daemon\8.14\daemon-10416.out.log
+Starting 3rd build in daemon [uptime: 21 mins 53.937 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 4% of 4 GiB]
+Using 16 worker leases.
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\buildOutputCleanup\outputFiles.bin
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+Now considering [C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android, C:\FlutterNew\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Invalidating in-memory cache of C:\Users\TUF\.gradle\caches\8.14\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\TUF\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+Invalidating in-memory cache of C:\Users\TUF\.gradle\caches\journal-1\file-access.bin
+Caching disabled for Kotlin DSL script compilation (Settings/TopLevel/stage1) because:
+  Build cache is disabled
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\checksums\md5-checksums.bin
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\checksums\sha1-checksums.bin
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\checksums\sha256-checksums.bin
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\checksums\sha512-checksums.bin
+Now considering [C:\FlutterNew\flutter\packages\flutter_tools\gradle, C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android] as hierarchies to watch
+Invalidating in-memory cache of C:\FlutterNew\flutter\packages\flutter_tools\gradle\.gradle\buildOutputCleanup\outputFiles.bin
+
+> Configure project :gradle
+Evaluating project ':gradle' using build file 'C:\FlutterNew\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+Resolved plugin [id: 'org.gradle.groovy']
+Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.2.20']
+Build 70aa87a3-31d0-43b3-ada7-5958ac4653b2 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+WARNING: Unsupported Kotlin plugin version.
+The `embedded-kotlin` and `kotlin-dsl` plugins rely on features of Kotlin `2.0.21` that might work differently than in the requested version `2.2.20`.
+file or directory 'C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\java', not found
+Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.1.21', apply: false]
+Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#475,Execution worker,5,main]) started.
+:gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#488,Execution worker Thread 14,5,main]) started.
+Invalidating in-memory cache of C:\FlutterNew\flutter\packages\flutter_tools\gradle\.gradle\8.14\executionHistory\executionHistory.bin
+
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle:compileKotlin (Thread[#488,Execution worker Thread 14,5,main]) started.
+:gradle:compileKotlin (Thread[#488,Execution worker Thread 14,5,main]) started.
+Resolve mutations for :gradle:pluginDescriptors (Thread[#477,Execution worker Thread 3,5,main]) started.
+:gradle:pluginDescriptors (Thread[#477,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle:processResources (Thread[#477,Execution worker Thread 3,5,main]) started.
+:gradle:processResources (Thread[#477,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle:processResources UP-TO-DATE
+Caching disabled for task ':gradle:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:processResources' as it is up-to-date.
+
+> Task :gradle:compileKotlin
+Caching disabled for task ':gradle:compileKotlin' because:
+  Build cache is disabled
+Task ':gradle:compileKotlin' is not up-to-date because:
+  Value of input property 'kotlinJavaToolchainProvider.javaVersion' has changed for task ':gradle:compileKotlin'
+The input changes require a full rebuild for incremental task ':gradle:compileKotlin'.
+file or directory 'C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\java', not found
+Overriding '-Xjvm-default=all' to stable compiler plugin argument '-jvm-default=no-compatibility' in the presence of 'kotlin-dsl' plugin.
+file or directory 'C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\java', not found
+file or directory 'C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\java', not found
+file or directory 'C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\java', not found
+Kotlin source files: C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\AgpCommonExtensionWrapper.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\AppLinkSettings.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\BaseApplicationNameHandler.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\Deeplink.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\DependencyVersionChecker.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\FlutterAppPluginLoaderPlugin.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\FlutterExtension.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\FlutterPlugin.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\FlutterPluginConstants.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\FlutterPluginUtils.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\IntentFilterCheck.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\NativePluginLoaderReflectionBridge.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\plugins\PluginHandler.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\tasks\BaseFlutterTask.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\tasks\BaseFlutterTaskHelper.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\tasks\DeepLinkJsonFromManifestTask.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\tasks\DeepLinkJsonFromManifestTaskHelper.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\tasks\FlutterTask.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\tasks\FlutterTaskHelper.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\VersionFetcher.kt, C:\FlutterNew\flutter\packages\flutter_tools\gradle\src\main\kotlin\VersionUtils.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Program Files\Java\jdk-24
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@76640703, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\FlutterNew\flutter\packages\flutter_tools\gradle\build\kotlin\compileKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\FlutterNew\flutter\packages\flutter_tools\gradle\build\kotlin\compileKotlin\local-state\build-history.bin, useModuleDetection=false), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\FlutterNew\flutter\packages\flutter_tools\gradle\build\classes\kotlin\main, C:\FlutterNew\flutter\packages\flutter_tools\gradle\build\kotlin\compileKotlin\cacheable, C:\FlutterNew\flutter\packages\flutter_tools\gradle\build\kotlin\compileKotlin\local-state])
+w: Language version 1.8 is deprecated and its support will be removed in a future version of Kotlin
+w: file:///C:/FlutterNew/flutter/packages/flutter_tools/gradle/src/main/kotlin/FlutterPlugin.kt:12:37 'ApkVariant' is deprecated. Deprecated in Java
+w: file:///C:/FlutterNew/flutter/packages/flutter_tools/gradle/src/main/kotlin/FlutterPlugin.kt:625:69 'ApkVariant' is deprecated. Deprecated in Java
+w: file:///C:/FlutterNew/flutter/packages/flutter_tools/gradle/src/main/kotlin/FlutterPluginUtils.kt:12:37 'BaseVariantOutput' is deprecated. Deprecated in Java
+w: file:///C:/FlutterNew/flutter/packages/flutter_tools/gradle/src/main/kotlin/plugins/PluginHandler.kt:168:70 Unchecked cast: NamedDomainObjectContainer<out BuildType> to NamedDomainObjectContainer<BuildType>
+w: file:///C:/FlutterNew/flutter/packages/flutter_tools/gradle/src/main/kotlin/plugins/PluginHandler.kt:169:75 Unchecked cast: NamedDomainObjectContainer<out BuildType> to NamedDomainObjectContainer<BuildType>
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :gradle:compileJava (Thread[#488,Execution worker Thread 14,5,main]) started.
+:gradle:compileJava (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :gradle:compileJava NO-SOURCE
+Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle:compileGroovy (Thread[#488,Execution worker Thread 14,5,main]) started.
+:gradle:compileGroovy (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :gradle:compileGroovy NO-SOURCE
+Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+Resolve mutations for :gradle:classes (Thread[#488,Execution worker Thread 14,5,main]) started.
+:gradle:classes (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :gradle:classes UP-TO-DATE
+Skipping task ':gradle:classes' as it has no actions.
+Resolve mutations for :gradle:jar (Thread[#488,Execution worker Thread 14,5,main]) started.
+:gradle:jar (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :gradle:jar UP-TO-DATE
+Caching disabled for task ':gradle:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle:jar' as it is up-to-date.
+Caching disabled for Kotlin DSL script compilation (Settings/TopLevel/stage2) because:
+  Build cache is disabled
+Settings evaluated using settings file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\build.gradle.kts'.
+Included projects: [root project 'android', project ':app']
+
+> Configure project :
+Evaluating root project 'android' using build file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\build.gradle.kts'.
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage1) because:
+  Build cache is disabled
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage2) because:
+  Build cache is disabled
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\app\build.gradle.kts'.
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage1) because:
+  Build cache is disabled
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'kotlin-android']
+Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+Using default execution profile
+Build ac7a33d3-181b-4cee-8ec4-4982386f82ce is started
+Using Kotlin Gradle Plugin gradle85 variant
+Caching disabled for Kotlin DSL script compilation (Project/ScriptPlugin/stage1) because:
+  Build cache is disabled
+Warning: Flutter support for your project's Kotlin version (2.1.21) will soon be dropped. Please upgrade your Kotlin version to a version of at least 2.2.20 soon.
+Alternatively, use the flag "--android-skip-build-dependency-validation" to bypass this check.
+
+Potential fix: Your project's KGP version is typically defined in the plugins block of the `settings.gradle` file (C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android/settings.gradle), by a plugin with the id of org.jetbrains.kotlin.android. 
+If you don't see a plugins block, your project was likely created with an older template version, in which case it is most likely defined in the top-level build.gradle file (C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android/build.gradle) by the ext.kotlin_version property.
+
+Caching disabled for Kotlin DSL script compilation (Project/TopLevel/stage2) because:
+  Build cache is disabled
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+All projects evaluated.
+WARNING: Your Android app project: app located at: C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\app\build.gradle.kts
+applies the Kotlin Gradle Plugin, which will cause build failures in future versions of Flutter. 
+Please migrate your app to Built-in Kotlin using this guide: https://docs.flutter.dev/release/breaking-changes/migrate-to-built-in-kotlin/for-app-developers
+
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:compileFlutterBuildDebug', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:copyJniLibsflutterBuildDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:DebugMinSdkCheck (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:DebugMinSdkCheck (Thread[#488,Execution worker Thread 14,5,main]) started.
+Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\executionHistory\executionHistory.bin
+
+> Task :app:DebugMinSdkCheck
+Caching disabled for task ':app:DebugMinSdkCheck' because:
+  Build cache is disabled
+Task ':app:DebugMinSdkCheck' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:preBuild (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:preDebugBuild (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:cleanMergeDebugAssets (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:cleanMergeDebugAssets (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:cleanMergeDebugAssets
+Caching disabled for task ':app:cleanMergeDebugAssets' because:
+  Build cache is disabled
+Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:compileFlutterBuildDebug (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:compileFlutterBuildDebug (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:compileFlutterBuildDebug
+Caching disabled for task ':app:compileFlutterBuildDebug' because:
+  Build cache is disabled
+  Caching has not been enabled for the task
+Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+  Value of input property 'dartDefines' has changed for task ':app:compileFlutterBuildDebug'
+  Value of input property 'fileSystemScheme' has changed for task ':app:compileFlutterBuildDebug'
+  Value of input property 'targetPath' has changed for task ':app:compileFlutterBuildDebug'
+  and more...
+Starting process 'command 'C:\FlutterNew\flutter\bin\flutter.bat''. Working directory: C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app Command: C:\FlutterNew\flutter\bin\flutter.bat --quiet assemble --no-version-check --depfile C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\flutter\debug/flutter_build.d --output C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\flutter\debug -dTargetFile=lib/main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 debug_android_application
+Successfully started process 'command 'C:\FlutterNew\flutter\bin\flutter.bat''
+Resolve mutations for :app:mergeDebugShaders (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:mergeDebugShaders (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:mergeDebugShaders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugShaders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+Resolve mutations for :app:compileDebugShaders (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:compileDebugShaders (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:compileDebugShaders NO-SOURCE
+Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugAssets (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:generateDebugAssets (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:mergeDebugAssets (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:mergeDebugAssets
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Task ':app:mergeDebugAssets' is not up-to-date because:
+  Output property 'outputDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets has been removed.
+The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+Resolve mutations for :app:copyFlutterAssetsDebug (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:copyFlutterAssetsDebug (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:copyFlutterAssetsDebug
+Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+  Build cache is disabled
+  Not worth caching
+Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+  Output property 'destinationDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets has been removed.
+  Output property 'destinationDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets\AssetManifest.bin has been removed.
+  Output property 'destinationDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets\FontManifest.json has been removed.
+  and more...
+Resolve mutations for :app:generateDebugResValues (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:generateDebugResValues (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:generateDebugResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:mergeDebugResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:packageDebugResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:parseDebugLocalResources (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:processDebugMainManifest (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:outputDebugAppLinkSettings (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:outputDebugAppLinkSettings (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:outputDebugAppLinkSettings UP-TO-DATE
+Caching disabled for task ':app:outputDebugAppLinkSettings' because:
+  Build cache is disabled
+  Caching has not been enabled for the task
+Skipping task ':app:outputDebugAppLinkSettings' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:processDebugManifest (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#488,Execution worker Thread 14,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#488,Execution worker Thread 14,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#487,Execution worker Thread 13,5,main]) started.
+:app:processDebugResources (Thread[#487,Execution worker Thread 13,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#487,Execution worker Thread 13,5,main]) started.
+:app:compileDebugKotlin (Thread[#487,Execution worker Thread 13,5,main]) started.
+
+> Task :app:compileDebugKotlin
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata\2.7.0\42ad14e1ee00719636e31a36e8cd50d7ce5c45c6\lifecycle-livedata-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.viewpager\viewpager\1.0.0\1f90e13820f96c2fb868f9674079a551678d68b2\viewpager-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.fragment\fragment\1.7.1\c7d4fcacda7c02f3b29e4d232f5f21cfa6aa7451\fragment-1.7.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.core\core-ktx\1.13.1\f595b8c10fad9099f71a3c1fc6ded1c9b5010190\core-ktx-1.13.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata-core\2.7.0\d95c9c0b74a6b9882c416c688f6cf201dc416bed\lifecycle-livedata-core-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-viewmodel-savedstate\2.7.0\1fa14bde5efb3a96fa4fb8ced995f7fdfe99dfd\lifecycle-viewmodel-savedstate-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.activity\activity\1.8.1\144ff894c8c32584ca9e99ebae0a2a28b294d371\activity-1.8.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.loader\loader\1.0.0\8af8b6cec0da85c207d03e15840e0722cbc71e70\loader-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-viewmodel\2.7.0\ea64fb2e504d200f2b7f03c76f51edd7e9ef62a9\lifecycle-viewmodel-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-livedata-core-ktx\2.7.0\746c75e5d0a819d11e255ad137083a51c746e953\lifecycle-livedata-core-ktx-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.customview\customview\1.0.0\30f5ff6075d112f8076e733b24410e68159735b6\customview-1.0.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.core\core\1.13.1\4606d420282fe1e5c8d5c4e647ec188e1045b7be\core-1.13.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-runtime\2.7.0\e46d7c73ab6cb3e288f51a0ad96bf372e90ceb31\lifecycle-runtime-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-process\2.7.0\10fc9ecc045a9931724c43e710c55680a772d96a\lifecycle-process-2.7.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.window\window\1.2.0\1d080d0a72684227bf6eb9af56264542708f8d16\window-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-experimental\1.4.0\c7a2038d831d0cfbfb9a440890b287c2e839ecf\annotation-experimental-1.4.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.window\window-java\1.2.0\924d0a3ca93fac4acb32c6a972e9fa1e283f1f07\window-java-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-runtime\2.2.0\39705982680d78556b679ef9d5400d4f17509b0b\core-runtime-2.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.savedstate\savedstate\1.2.1\e364fc9dec32aa569d855f85864e50250318a093\savedstate-1.2.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.versionedparcelable\versionedparcelable\1.1.1\18e18071e7715679e0593c570217edeb5ca48b9e\versionedparcelable-1.1.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.startup\startup-runtime\1.1.1\9d4ba67056aff98b69eadc1477c19a1e67cb9470\startup-runtime-1.1.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\com.getkeepsafe.relinker\relinker\1.4.5\222d7b0624248da9336bbfccff8a129e3e280ce8\relinker-1.4.5.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.tracing\tracing\1.2.0\a6ac2cc501278fdc99c56b428548e0cd1e9300f7\tracing-1.2.0.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for AarToClassTransform: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\androidx.exifinterface\exifinterface\1.4.1\d8336b7d7dfd354f334dd21372db9e9e2da2fd81\exifinterface-1.4.1.aar because:
+  Build cache is disabled
+  Caching not enabled.
+Resource missing. [HTTP GET: https://storage.googleapis.com/download.flutter.io/io/flutter/x86_64_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/x86_64_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar.sha1]
+Resource missing. [HTTP GET: https://storage.googleapis.com/download.flutter.io/io/flutter/armeabi_v7a_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/armeabi_v7a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar.sha1]
+Downloading https://storage.googleapis.com/download.flutter.io/io/flutter/x86_64_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/x86_64_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar to C:\Users\TUF\.gradle\.tmp\gradle_download15713004700254315521bin
+Downloading https://storage.googleapis.com/download.flutter.io/io/flutter/armeabi_v7a_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/armeabi_v7a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar to C:\Users\TUF\.gradle\.tmp\gradle_download9207683941268897728bin
+Resource missing. [HTTP GET: https://storage.googleapis.com/download.flutter.io/io/flutter/arm64_v8a_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/arm64_v8a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar.sha1]
+Downloading https://storage.googleapis.com/download.flutter.io/io/flutter/arm64_v8a_debug/1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab/arm64_v8a_debug-1.0.0-77e2e94772b6eb43759e34ed1ad7da4674e19cab.jar to C:\Users\TUF\.gradle\.tmp\gradle_download14607763032520695077bin
+^CTerminate batch job (Y/N)? 
+^CThe syntax of the command is incorrect.

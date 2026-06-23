@@ -1,0 +1,9 @@
+POST http://localhost:5297/api/collection
+Content-Type: application/json
+
+{
+  "supplierCode": "SUP001",
+  "clearKg": 50,
+  "coloredKg": 20,
+  "condition": "Good"
+}

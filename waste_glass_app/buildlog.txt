@@ -1,0 +1,741 @@
+[ +253 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] executing: [C:\Users\TUF\Flutter\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[  +78 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-03-17 16:14:01 -0700
+[  +49 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +145 ms] executing: C:\Users\TUF\AppData\Local\Android\sdk\platform-tools\adb.exe devices -l
+[  +56 ms] List of devices attached
+           emulator-5554          device product:sdk_gphone64_x86_64 model:sdk_gphone64_x86_64 device:emu64xa transport_id:2
+[   +3 ms] C:\Users\TUF\AppData\Local\Android\sdk\platform-tools\adb.exe -s emulator-5554 shell getprop
+[  +71 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +119 ms] Skipping pub get: version match.
+[ +212 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +33 ms] Generating C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[  +12 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[  +11 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +9 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +9 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +9 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +8 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +9 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +9 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[  +12 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[  +10 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[  +77 ms] ro.hardware = ranchu
+[  +40 ms] Initializing file store
+[  +26 ms] Skipping target: gen_localizations
+[   +2 ms] gen_dart_plugin_registrant: Starting due to {InvalidatedReasonKind.inputChanged: The following inputs have updated contents: C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\.dart_tool\package_config.json}
+[  +39 ms] gen_dart_plugin_registrant: Complete
+[   +2 ms] Skipping target: _composite
+[   +1 ms] complete
+[   +4 ms] Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+[   +2 ms] C:\Users\TUF\Flutter\flutter\bin\cache\dart-sdk\bin\dartaotruntime.exe C:\Users\TUF\Flutter\flutter\bin\cache\dart-sdk\bin\snapshots\frontend_server_aot.dart.snapshot --sdk-root C:\Users\TUF\Flutter\flutter\bin\cache\artifacts\engine\common\flutter_patched_sdk/ --incremental --target=flutter --experimental-emit-debug-metadata -DFLUTTER_VERSION=3.41.5 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=2c9eb20739 -DFLUTTER_ENGINE_REVISION=052f31d115 -DFLUTTER_DART_VERSION=3.11.3 --output-dill C:\Users\TUF\AppData\Local\Temp\flutter_tools.4c9672b7\flutter_tool.75900486\app.dill --packages C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\.dart_tool\package_config.json -Ddart.vm.profile=false -Ddart.vm.product=false --enable-asserts --track-widget-creation --filesystem-scheme org-dartlang-root --initialize-from-dill build\99111e0c5b6228829e100ef67db14ea2.cache.dill.track.dill --verbosity=error --enable-experiment=alternative-invalidation-strategy
+[  +22 ms] executing: C:\Users\TUF\AppData\Local\Android\sdk\platform-tools\adb.exe -s emulator-5554 shell -x logcat -v time -t 1
+[  +90 ms] <- compile package:waste_glass_app/main.dart
+[ +142 ms] --------- beginning of main
+           06-22 19:49:10.702 I/HalDevMgr(  812): bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+[   +9 ms] executing: C:\Users\TUF\AppData\Local\Android\sdk\platform-tools\adb.exe version
+[  +40 ms] Android Debug Bridge version 1.0.41
+           Version 36.0.2-14143358
+           Installed as C:\Users\TUF\AppData\Local\Android\sdk\platform-tools\adb.exe
+           Running on Windows 10.0.26200
+[        ] executing: C:\Users\TUF\AppData\Local\Android\sdk\platform-tools\adb.exe start-server
+[  +40 ms] Building APK
+[   +7 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +107 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] openjdk version "21.0.8" 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +5 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +1 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[ +100 ms] Exit code 0 from: C:\Program Files\Android\Android Studio\jbr\bin\java --version
+[        ] openjdk 21.0.8 2025-07-15
+           OpenJDK Runtime Environment (build 21.0.8+-14196175-b1038.72)
+           OpenJDK 64-Bit Server VM (build 21.0.8+-14196175-b1038.72, mixed mode)
+[   +1 ms] Version of Java is different than impacted version, no migration attempted.
+[  +12 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +6 ms] Using gradle from C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\gradlew.bat.
+[   +9 ms] LocalFile: 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +8 ms] LocalFile: 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\settings.gradle.kts' provides AGP version: 8.11.1
+[   +3 ms] Running Gradle task 'assembleDebug'...
+[        ] executing: [C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android/] C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-x64 -Ptarget=C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MmM5ZWIyMDczOQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MDUyZjMxZDExNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4z -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false -Pfilesystem-scheme=org-dartlang-root assembleDebug
+[ +672 ms] Initialized native services in: C:\Users\TUF\.gradle\native
+[        ] Initialized jansi services in: C:\Users\TUF\.gradle\native
+[ +331 ms] The client will now receive all logging from the daemon (pid: 20860). The daemon log file: C:\Users\TUF\.gradle\daemon\8.14\daemon-20860.out.log
+[        ] Starting 2nd build in daemon [uptime: 58 mins 10.153 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 3% of 4 GiB]
+[        ] Using 16 worker leases.
+[        ] Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\fileHashes\fileHashes.bin
+[  +92 ms] Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\buildOutputCleanup\outputFiles.bin
+[        ] Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\fileHashes\resourceHashesCache.bin
+[        ] Now considering [C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android, C:\Users\TUF\Flutter\flutter\packages\flutter_tools\gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[        ] File system watching is active
+[        ] Starting Build
+[        ] Now considering [C:\Users\TUF\Flutter\flutter\packages\flutter_tools\gradle, C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android] as hierarchies to watch
+[        ] Invalidating in-memory cache of C:\Users\TUF\Flutter\flutter\packages\flutter_tools\gradle\.gradle\buildOutputCleanup\outputFiles.bin
+[ +293 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file 'C:\Users\TUF\Flutter\flutter\packages\flutter_tools\gradle\build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Invalidating in-memory cache of C:\Users\TUF\.gradle\caches\journal-1\file-access.bin
+[        ] Invalidating in-memory cache of C:\Users\TUF\.gradle\caches\8.14\fileHashes\fileHashes.bin
+[        ] Invalidating in-memory cache of C:\Users\TUF\.gradle\caches\8.14\fileHashes\resourceHashesCache.bin
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[        ] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[        ] file or directory 'C:\Users\TUF\Flutter\flutter\packages\flutter_tools\gradle\src\main\java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[        ] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#309,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] Invalidating in-memory cache of C:\Users\TUF\Flutter\flutter\packages\flutter_tools\gradle\.gradle\8.14\executionHistory\executionHistory.bin
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#320,Execution worker Thread 12,5,main]) started.
+[ +103 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:compileJava (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:processResources (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[        ] Resolve mutations for :gradle:classes (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:classes (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] :gradle:jar (Thread[#320,Execution worker Thread 12,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +291 ms] Settings evaluated using settings file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\settings.gradle.kts'.
+[        ] Projects loaded. Root project using build file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app']
+[ +402 ms] > Configure project :app
+[        ] Evaluating project ':app' using build file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\app\build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build 9a528e24-ba9e-40e1-a996-b04cba019d4b is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is C:\Users\TUF\AppData\Local\Android\sdk
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file 'C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\build.gradle.kts'.
+[        ] All projects evaluated.
+[        ] Task name matched 'assembleDebug'
+[        ] Selected primary task 'assembleDebug' from project :
+[        ] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[  +82 ms] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+[        ] Tasks that were excluded: []
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] Invalidating in-memory cache of C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\android\.gradle\8.14\executionHistory\executionHistory.bin
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:preBuild (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:preDebugBuild (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[#312,Execution worker Thread 4,5,main]) started.
+[+2000 ms] > Task :app:compileFlutterBuildDebug
+[        ] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+[        ]   Value of input property 'verbose' has changed for task ':app:compileFlutterBuildDebug'
+[        ] Starting process 'command 'C:\Users\TUF\Flutter\flutter\bin\flutter.bat''. Working directory: C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app Command: C:\Users\TUF\Flutter\flutter\bin\flutter.bat --verbose assemble --no-version-check --depfile C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\flutter\debug/flutter_build.d --output C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\flutter\debug -dTargetFile=C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\lib\main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuNQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MmM5ZWIyMDczOQ==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MDUyZjMxZDExNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4z -dFlavor= -dAndroidArchs=android-x64 -dMinSdkVersion=24 debug_android_application
+[        ] Successfully started process 'command 'C:\Users\TUF\Flutter\flutter\bin\flutter.bat''
+[        ] [ +231 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [   +8 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [  +50 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[        ] [  +21 ms] Initializing file store
+[        ] [  +19 ms] Done initializing file store
+[        ] [ +124 ms] Skipping target: dart_build
+[        ] [   +1 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [   +2 ms] Skipping target: install_code_assets
+[        ] [        ] Skipping target: gen_localizations
+[+3385 ms] [+3967 ms] Skipping target: kernel_snapshot_program
+[ +511 ms] [ +555 ms] Skipping target: debug_android_application
+[        ] [        ] Persisting file store
+[  +93 ms] [  +16 ms] Done persisting file store
+[        ] [  +20 ms] build succeeded.
+[        ] [   +7 ms] "flutter assemble" took 4,800ms.
+[  +94 ms] [  +72 ms] Running 1 shutdown hook
+[        ] [   +1 ms] Shutdown hooks complete
+[ +202 ms] [ +273 ms] exiting with code 0
+[ +107 ms] Resolve mutations for :app:packJniLibsflutterBuildDebug (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:packJniLibsflutterBuildDebug (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:packJniLibsflutterBuildDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':app:packJniLibsflutterBuildDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugAarMetadata (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:checkDebugAarMetadata (Thread[#312,Execution worker Thread 4,5,main]) started.
+[  +92 ms] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':app:checkDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:cleanMergeDebugAssets (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:cleanMergeDebugAssets (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:cleanMergeDebugAssets
+[        ] Caching disabled for task ':app:cleanMergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:mergeDebugShaders (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:mergeDebugShaders (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :app:compileDebugShaders (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:compileDebugShaders (Thread[#312,Execution worker Thread 4,5,main]) started.
+[ +107 ms] > Task :app:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:generateDebugAssets (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:generateDebugAssets (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':app:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugAssets (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:mergeDebugAssets (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] > Task :app:mergeDebugAssets
+[        ] Caching disabled for task ':app:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':app:mergeDebugAssets' is not up-to-date because:
+[        ]   Output property 'outputDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets has been removed.
+[        ] The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+[        ] Resolve mutations for :app:copyFlutterAssetsDebug (Thread[#312,Execution worker Thread 4,5,main]) started.
+[        ] :app:copyFlutterAssetsDebug (Thread[#312,Execution worker Thread 4,5,main]) started.
+[ +294 ms] > Task :app:copyFlutterAssetsDebug
+[        ] Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+[        ]   Output property 'destinationDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets has been removed.
+[        ]   Output property 'destinationDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets\AssetManifest.bin has been removed.
+[        ]   Output property 'destinationDir' file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\assets\debug\mergeDebugAssets\flutter_assets\FontManifest.json has been removed.
+[        ]   and more...
+[        ] Resolve mutations for :app:generateDebugResValues (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:generateDebugResValues (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:mapDebugSourceSetPaths (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :app:generateDebugResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:generateDebugResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:mergeDebugResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:mergeDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:mergeDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebugResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[  +90 ms] :app:packageDebugResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:packageDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:parseDebugLocalResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:parseDebugLocalResources (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:parseDebugLocalResources UP-TO-DATE
+[        ] Caching disabled for task ':app:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+[        ] Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:createDebugCompatibleScreenManifests (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+[        ] Resolve mutations for :app:extractDeepLinksDebug (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:extractDeepLinksDebug (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugMainManifest (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:processDebugMainManifest (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] > Task :app:processDebugMainManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugMainManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:outputDebugAppLinkSettings (Thread[#319,Execution worker Thread 11,5,main]) started.
+[        ] :app:outputDebugAppLinkSettings (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:outputDebugAppLinkSettings UP-TO-DATE
+[        ] Caching disabled for task ':app:outputDebugAppLinkSettings' because:
+[        ]   Build cache is disabled
+[        ]   Caching has not been enabled for the task
+[        ] Skipping task ':app:outputDebugAppLinkSettings' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifest (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:processDebugManifest (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':app:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifest' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugManifestForPackage (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:processDebugManifestForPackage (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] > Task :app:processDebugManifestForPackage UP-TO-DATE
+[        ] Custom actions are attached to task ':app:processDebugManifestForPackage'.
+[        ] Caching disabled for task ':app:processDebugManifestForPackage' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+[        ] Resolve mutations for :app:processDebugResources (Thread[#315,Execution worker Thread 7,5,main]) started.
+[        ] :app:processDebugResources (Thread[#315,Execution worker Thread 7,5,main]) started.
+[+2005 ms] > Task :app:processDebugResources
+[        ] Downloading https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.11.1-12782657/aapt2-8.11.1-12782657-windows.jar to C:\Users\TUF\.gradle\.tmp\gradle_download7703149452680728172bin
+[+60295 ms] Caching disabled for Aapt2Extractor: C:\Users\TUF\.gradle\caches\modules-2\files-2.1\com.android.tools.build\aapt2\8.11.1-12782657\7104b237a220e92fd117bab6f592b468f6e0258f\aapt2-8.11.1-12782657-windows.jar because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[  +93 ms] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\a34b91bbf57793f407dc994e0e997df7\transformed\window-java-1.2.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\3a0a69b8a30c9dedbae7eaa29ed1160e\transformed\activity-1.8.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\ba18b21e180de95697f7173f8fcc30d1\transformed\window-1.2.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\7e9e7d870ffe742811ec4ebaede7c7d6\transformed\loader-1.0.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\d4d970b831f68f98a5f703f920283f3a\transformed\viewpager-1.0.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\bf40d9a3fb4025f795fbb9ae076a953b\transformed\lifecycle-livedata-core-ktx-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\136a2d61321d51fe3170517de49bbeef\transformed\lifecycle-livedata-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\7b12f943f5169712e22ddddc17de9bcf\transformed\lifecycle-viewmodel-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\a45234826c3179553080199500c7198f\transformed\lifecycle-livedata-core-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\c3ad95ce6f5b4782e793280676cf01d8\transformed\core-ktx-1.13.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\5b373c0a4506de526e8f60d9669d24e2\transformed\lifecycle-viewmodel-savedstate-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\f09b34821176a576b3f79086c210e7b1\transformed\customview-1.0.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1 because:
+[        ]   Build cache is disabled
+[ +105 ms] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\39aa7532b22fdec3772c2c1c55f43982\transformed\lifecycle-runtime-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\7b063733d58b239af3748ae9cbd0fe42\transformed\lifecycle-process-2.7.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\e0bd2d7b14a4e7d4e0043a24b8010eb8\transformed\annotation-experimental-1.4.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\f74467976a41ed432f8ef11bc70357e1\transformed\savedstate-1.2.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\a0eeb90bc61479368d19581873b7ab47\transformed\profileinstaller-1.3.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\9425c517869891ae786093a76f77d4d8\transformed\startup-runtime-1.1.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\b03290d5bb65d2df5c0d58aafb50d9aa\transformed\tracing-1.2.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\adf3b8378ed4fa255bda5c78a49a4d42\transformed\exifinterface-1.4.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\e727d9040a685ab5cfa3dbc562b2e68d\transformed\versionedparcelable-1.1.1 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\ec46af66868c644cc48c2dc23d52d7fe\transformed\core-runtime-2.2.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\b72bf87129050a19f42a0cdffd9e0933\transformed\interpolator-1.0.0 because:
+[        ]   Build cache is disabled
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable\notification_bg.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable_notification_bg.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\anim\fragment_fast_out_extra_slow_in.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\anim_fragment_fast_out_extra_slow_in.xml.flat
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\d6a6e9a4708e2c59225e7d71f71d8d0e\transformed\core-1.0.0 because:
+[        ]   Build cache is disabled
+[        ] Caching disabled for AarResourcesCompilerTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\88e4db718ca9bce8f5e7b1d422d1f54f\transformed\relinker-1.4.5 because:
+[        ]   Build cache is disabled
+[  +88 ms] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable\notification_bg_low.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable_notification_bg_low.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\anim-v21\fragment_fast_out_extra_slow_in.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\anim-v21_fragment_fast_out_extra_slow_in.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable\notification_icon_background.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable_notification_icon_background.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\animator\fragment_close_enter.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\animator_fragment_close_enter.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable\notification_tile_bg.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable_notification_tile_bg.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\animator\fragment_close_exit.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\animator_fragment_close_exit.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-anydpi-v21\ic_call_answer.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-anydpi-v21_ic_call_answer.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\animator\fragment_fade_enter.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\animator_fragment_fade_enter.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\animator\fragment_fade_exit.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\animator_fragment_fade_exit.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-anydpi-v21\ic_call_answer_low.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-anydpi-v21_ic_call_answer_low.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-anydpi-v21\ic_call_answer_video.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-anydpi-v21_ic_call_answer_video.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\animator\fragment_open_enter.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\animator_fragment_open_enter.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1\res\animator\fragment_open_exit.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\b2731d3e6dc4e7700af3df3cb909b5bf-b49df80b-af90-4b11-bbac-46fb35b0fefc\transformed\androidx.fragment\animator_fragment_open_exit.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-anydpi-v21\ic_call_answer_video_low.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-anydpi-v21_ic_call_answer_video_low.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-anydpi-v21\ic_call_decline.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-anydpi-v21_ic_call_decline.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-anydpi-v21\ic_call_decline_low.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-anydpi-v21_ic_call_decline_low.xml.flat
+[        ] AAPT2 aapt2-8.11.1-12782657-windows Daemon #0: starting
+[ +201 ms] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\drawable-v21\notification_action_background.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\drawable-v21_notification_action_background.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\custom_dialog.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_custom_dialog.xml.flat
+[  +94 ms] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\ime_base_split_test_activity.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_ime_base_split_test_activity.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\ime_secondary_split_test_activity.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_ime_secondary_split_test_activity.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\notification_action.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_notification_action.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\notification_action_tombstone.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_notification_action_tombstone.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\notification_template_custom_big.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_notification_template_custom_big.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\notification_template_icon_group.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_notification_template_icon_group.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\notification_template_part_chronometer.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_notification_template_part_chronometer.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout\notification_template_part_time.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout_notification_template_part_time.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout-v21\notification_action.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout-v21_notification_action.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout-v21\notification_action_tombstone.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout-v21_notification_action_tombstone.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout-v21\notification_template_custom_big.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout-v21_notification_template_custom_big.xml.flat
+[        ] Compiling xml file C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1\res\layout-v21\notification_template_icon_group.xml to C:\Users\TUF\.gradle\caches\8.14\transforms\c980cfd52faffd6fc7589eebfd6d0e8d-5af7051a-a910-4927-8daf-81578b6c7df9\transformed\androidx.core\layout-v21_notification_template_icon_group.xml.flat
+[ +104 ms] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\a34b91bbf57793f407dc994e0e997df7\transformed\window-java-1.2.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\20d783aebbd3b3e1ccfa231df42157f0\transformed\fragment-1.7.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\3a0a69b8a30c9dedbae7eaa29ed1160e\transformed\activity-1.8.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\ba18b21e180de95697f7173f8fcc30d1\transformed\window-1.2.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\7e9e7d870ffe742811ec4ebaede7c7d6\transformed\loader-1.0.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\d4d970b831f68f98a5f703f920283f3a\transformed\viewpager-1.0.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\bf40d9a3fb4025f795fbb9ae076a953b\transformed\lifecycle-livedata-core-ktx-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\136a2d61321d51fe3170517de49bbeef\transformed\lifecycle-livedata-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\7b12f943f5169712e22ddddc17de9bcf\transformed\lifecycle-viewmodel-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\a45234826c3179553080199500c7198f\transformed\lifecycle-livedata-core-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\5b373c0a4506de526e8f60d9669d24e2\transformed\lifecycle-viewmodel-savedstate-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\c3ad95ce6f5b4782e793280676cf01d8\transformed\core-ktx-1.13.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\f09b34821176a576b3f79086c210e7b1\transformed\customview-1.0.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\8fce4b6817afdbcb773f05070652658e\transformed\core-1.13.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\39aa7532b22fdec3772c2c1c55f43982\transformed\lifecycle-runtime-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\7b063733d58b239af3748ae9cbd0fe42\transformed\lifecycle-process-2.7.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\f74467976a41ed432f8ef11bc70357e1\transformed\savedstate-1.2.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\9425c517869891ae786093a76f77d4d8\transformed\startup-runtime-1.1.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\e0bd2d7b14a4e7d4e0043a24b8010eb8\transformed\annotation-experimental-1.4.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\ec46af66868c644cc48c2dc23d52d7fe\transformed\core-runtime-2.2.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\a0eeb90bc61479368d19581873b7ab47\transformed\profileinstaller-1.3.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\adf3b8378ed4fa255bda5c78a49a4d42\transformed\exifinterface-1.4.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\b03290d5bb65d2df5c0d58aafb50d9aa\transformed\tracing-1.2.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\b72bf87129050a19f42a0cdffd9e0933\transformed\interpolator-1.0.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\d6a6e9a4708e2c59225e7d71f71d8d0e\transformed\core-1.0.0 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\e727d9040a685ab5cfa3dbc562b2e68d\transformed\versionedparcelable-1.1.1 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[        ] Caching disabled for LibrarySymbolTableTransform: C:\Users\TUF\.gradle\caches\8.14\transforms\88e4db718ca9bce8f5e7b1d422d1f54f\transformed\relinker-1.4.5 because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[  +85 ms] Caching disabled for task ':app:processDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:processDebugResources' is not up-to-date because:
+[        ]   No history is available.
+[        ] The input changes require a full rebuild for incremental task ':app:processDebugResources'.
+[        ] Resolve mutations for :app:javaPreCompileDebug (Thread[#309,Execution worker,5,main]) started.
+[        ] :app:javaPreCompileDebug (Thread[#309,Execution worker,5,main]) started.
+[        ] > Task :app:javaPreCompileDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:javaPreCompileDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+[        ] Resolve mutations for :app:compressDebugAssets (Thread[#309,Execution worker,5,main]) started.
+[        ] :app:compressDebugAssets (Thread[#309,Execution worker,5,main]) started.
+[        ] > Task :app:compressDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':app:compressDebugAssets' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:compressDebugAssets' as it is up-to-date.
+[        ] Resolve mutations for :app:desugarDebugFileDependencies (Thread[#309,Execution worker,5,main]) started.
+[        ] :app:desugarDebugFileDependencies (Thread[#309,Execution worker,5,main]) started.
+[        ] > Task :app:desugarDebugFileDependencies UP-TO-DATE
+[        ] Caching disabled for task ':app:desugarDebugFileDependencies' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+[        ] Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#309,Execution worker,5,main]) started.
+[        ] :app:checkDebugDuplicateClasses (Thread[#309,Execution worker,5,main]) started.
+[ +899 ms] > Task :app:processDebugResources
+[        ] Aapt output file C:\Users\TUF\Desktop\WasteGlassCollection\waste_glass_app\build\app\intermediates\linked_resources_binary_format\debug\processDebugResources\linked-resources-binary-format-debug.ap_
+[+1099 ms] > Task :app:checkDebugDuplicateClasses
+[        ] Downloading https://storage.googleapis.com/download.flutter.io/io/flutter/x86_64_debug/1.0.0-052f31d115eceda8cbff1b3481fcde4330c4ae12/x86_64_debug-1.0.0-052f31d115eceda8cbff1b3481fcde4330c4ae12.jar to C:\Users\TUF\.gradle\.tmp\gradle_download5573021672446412570bin
+[+237496 ms] AAPT2 aapt2-8.11.1-12782657-windows Daemon #0: shutdown
+[+216411 ms] Running 3 shutdown hooks
+[   +1 ms] Shutdown hooks complete
+[ +257 ms] exiting with code 0
+Terminate batch job (Y/N)? 
+^CThe syntax of the command is incorrect.
