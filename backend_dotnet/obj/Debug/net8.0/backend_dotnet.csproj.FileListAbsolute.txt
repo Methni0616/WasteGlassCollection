@@ -110,3 +110,6 @@ C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\obj\Debug\net8.0\refint
 C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\obj\Debug\net8.0\backend_dotnet.pdb
 C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\obj\Debug\net8.0\backend_dotnet.genruntimeconfig.cache
 C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\obj\Debug\net8.0\ref\backend_dotnet.dll
+C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
