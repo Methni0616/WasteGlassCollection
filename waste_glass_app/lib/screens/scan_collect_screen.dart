@@ -256,7 +256,37 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
                       ),
                     ),
 
-                    onPressed: formUnlocked ? submitCollection : null,
+                    onPressed: formUnlocked
+                        ? () async {
+                            final confirm = await showDialog<bool>(
+                              context: context,
+                              builder: (_) => AlertDialog(
+                                title: const Text('Confirm'),
+                                content: const Text(
+                                  'Are you sure you want to save this collection?',
+                                ),
+                                actions: [
+                                  TextButton(
+                                    onPressed: () {
+                                      Navigator.pop(context, false);
+                                    },
+                                    child: const Text('No'),
+                                  ),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Navigator.pop(context, true);
+                                    },
+                                    child: const Text('Yes'),
+                                  ),
+                                ],
+                              ),
+                            );
+
+                            if (confirm == true) {
+                              await submitCollection();
+                            }
+                          }
+                        : null,
                   ),
                 ),
               ],
