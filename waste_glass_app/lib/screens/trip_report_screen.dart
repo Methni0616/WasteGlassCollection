@@ -17,6 +17,14 @@ class _TripReportScreenState extends State<TripReportScreen> {
     report = ApiService.getReport();
   }
 
+  Future<void> _refreshReport() async {
+    setState(() {
+      report = ApiService.getReport();
+    });
+
+    await report;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +36,6 @@ class _TripReportScreenState extends State<TripReportScreen> {
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),
-
             onPressed: () {
               setState(() {
                 report = ApiService.getReport();
@@ -38,54 +45,81 @@ class _TripReportScreenState extends State<TripReportScreen> {
         ],
       ),
 
-      body: FutureBuilder<Map<String, dynamic>>(
-        future: report,
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return Center(child: Text('Error: ${snapshot.error}'));
-          }
+      body: RefreshIndicator(
+        onRefresh: _refreshReport,
 
-          if (!snapshot.hasData) {
-            return const Center(child: CircularProgressIndicator());
-          }
+        child: FutureBuilder<Map<String, dynamic>>(
+          future: report,
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              return ListView(
+                physics: const AlwaysScrollableScrollPhysics(),
+                children: [
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.7,
+                    child: Center(
+                      child: Text(
+                        'Error: ${snapshot.error}',
+                      ),
+                    ),
+                  ),
+                ],
+              );
+            }
 
-          final data = snapshot.data!;
+            if (!snapshot.hasData) {
+              return ListView(
+                physics: const AlwaysScrollableScrollPhysics(),
+                children: const [
+                  SizedBox(
+                    height: 500,
+                    child: Center(
+                      child: CircularProgressIndicator(),
+                    ),
+                  ),
+                ],
+              );
+            }
 
-          return ListView(
-            padding: const EdgeInsets.all(16),
-            children: [
-              _reportCard(
-                icon: Icons.people,
-                title: 'Total Suppliers',
-                value: data['totalSuppliers'].toString(),
-              ),
+            final data = snapshot.data!;
 
-              _reportCard(
-                icon: Icons.check_circle,
-                title: 'Collected Suppliers',
-                value: data['collectedSuppliers'].toString(),
-              ),
+            return ListView(
+              physics: const AlwaysScrollableScrollPhysics(),
+              padding: const EdgeInsets.all(16),
+              children: [
+                _reportCard(
+                  icon: Icons.people,
+                  title: 'Total Suppliers',
+                  value: data['totalSuppliers'].toString(),
+                ),
 
-              _reportCard(
-                icon: Icons.circle_outlined,
-                title: 'Clear Glass',
-                value: '${data['totalClearKg']} kg',
-              ),
+                _reportCard(
+                  icon: Icons.check_circle,
+                  title: 'Collected Suppliers',
+                  value: data['collectedSuppliers'].toString(),
+                ),
 
-              _reportCard(
-                icon: Icons.recycling,
-                title: 'Colored Glass',
-                value: '${data['totalColoredKg']} kg',
-              ),
+                _reportCard(
+                  icon: Icons.circle_outlined,
+                  title: 'Clear Glass',
+                  value: '${data['totalClearKg']} kg',
+                ),
 
-              _reportCard(
-                icon: Icons.scale,
-                title: 'Total Glass',
-                value: '${data['totalCollectedKg']} kg',
-              ),
-            ],
-          );
-        },
+                _reportCard(
+                  icon: Icons.recycling,
+                  title: 'Colored Glass',
+                  value: '${data['totalColoredKg']} kg',
+                ),
+
+                _reportCard(
+                  icon: Icons.scale,
+                  title: 'Total Glass',
+                  value: '${data['totalCollectedKg']} kg',
+                ),
+              ],
+            );
+          },
+        ),
       ),
     );
   }
@@ -98,21 +132,28 @@ class _TripReportScreenState extends State<TripReportScreen> {
     return Card(
       elevation: 6,
       margin: const EdgeInsets.only(bottom: 15),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
       child: ListTile(
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 20,
           vertical: 12,
         ),
-
         leading: CircleAvatar(
           radius: 28,
           backgroundColor: const Color(0xFF6BCB77),
-          child: Icon(icon, color: Colors.white),
+          child: Icon(
+            icon,
+            color: Colors.white,
+          ),
         ),
-
-        title: Text(title, style: const TextStyle(fontWeight: FontWeight.w600)),
-
+        title: Text(
+          title,
+          style: const TextStyle(
+            fontWeight: FontWeight.w600,
+          ),
+        ),
         trailing: Text(
           value,
           style: const TextStyle(
