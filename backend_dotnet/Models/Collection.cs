@@ -22,4 +22,5 @@ public class Collection
 
     [Column("collected_at")]
     public DateTime CollectedAt { get; set; }
+
 }

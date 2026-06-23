@@ -120,3 +120,4 @@ C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net10.0\ru\Mi
 C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\TUF\Desktop\WasteGlassCollection\backend_dotnet\obj\Debug\net10.0\backend_dotnet.sourcelink.json

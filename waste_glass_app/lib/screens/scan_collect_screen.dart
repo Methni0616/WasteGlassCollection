@@ -1,11 +1,15 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+
 import 'trip_report_screen.dart';
 import '../services/database_service.dart';
+import 'barcode_scanner_page.dart';
 
 class ScanCollectScreen extends StatefulWidget {
-  const ScanCollectScreen({super.key});
+  final String expectedSupplier;
+
+  const ScanCollectScreen({super.key, required this.expectedSupplier});
 
   @override
   State<ScanCollectScreen> createState() => _ScanCollectScreenState();
@@ -20,6 +24,19 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
 
   final conditionController = TextEditingController();
 
+  String scannedSupplier = '';
+
+  bool formUnlocked = false;
+
+  late String expectedSupplier;
+
+  @override
+  void initState() {
+    super.initState();
+
+    expectedSupplier = widget.expectedSupplier;
+  }
+
   Future<void> submitCollection() async {
     if (supplierController.text.isEmpty ||
         clearController.text.isEmpty ||
@@ -33,7 +50,7 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
     }
 
     final response = await http.post(
-      Uri.parse('http://localhost:5297/api/collection'),
+      Uri.parse('http://10.91.36.1:5297/api/collection'),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode({
         'supplierCode': supplierController.text,
@@ -44,13 +61,14 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
     );
 
     if (response.statusCode == 200) {
-      // Save to local database
       await DatabaseService.saveCollection(
         supplierCode: supplierController.text,
         clearKg: double.parse(clearController.text),
         coloredKg: double.parse(coloredController.text),
         condition: conditionController.text,
       );
+
+      if (!mounted) return;
 
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Collection Saved Successfully')),
@@ -61,6 +79,8 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
         MaterialPageRoute(builder: (_) => const TripReportScreen()),
       );
     } else {
+      if (!mounted) return;
+
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(const SnackBar(content: Text('Failed')));
@@ -70,12 +90,9 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
   InputDecoration fieldDecoration(String label, IconData icon) {
     return InputDecoration(
       labelText: label,
-
       prefixIcon: Icon(icon, color: const Color(0xFF6BCB77)),
-
       filled: true,
       fillColor: Colors.white,
-
       border: OutlineInputBorder(borderRadius: BorderRadius.circular(15)),
     );
   }
@@ -111,10 +128,83 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
 
+                const SizedBox(height: 15),
+
+                Text(
+                  'Expected Supplier : $expectedSupplier',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.orange,
+                  ),
+                ),
+
                 const SizedBox(height: 25),
+
+                ElevatedButton.icon(
+                  icon: const Icon(Icons.qr_code_scanner),
+                  label: const Text('Scan Barcode'),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: const Color(0xFF6BCB77),
+                    foregroundColor: Colors.white,
+                  ),
+                  onPressed: () async {
+                    final messenger = ScaffoldMessenger.of(context);
+
+                    final result = await Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const BarcodeScannerPage(),
+                      ),
+                    );
+
+                    if (!mounted) return;
+
+                    if (result != null) {
+                      if (result == expectedSupplier) {
+                        setState(() {
+                          scannedSupplier = result;
+                          supplierController.text = result;
+                          formUnlocked = true;
+                        });
+
+                        messenger.showSnackBar(
+                          const SnackBar(
+                            content: Text('Correct Supplier'),
+                            backgroundColor: Colors.green,
+                          ),
+                        );
+                      } else {
+                        messenger.showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              'Wrong Supplier! Expected $expectedSupplier',
+                            ),
+                            backgroundColor: Colors.red,
+                          ),
+                        );
+                      }
+                    }
+                  },
+                ),
+
+                const SizedBox(height: 15),
+
+                if (scannedSupplier.isNotEmpty)
+                  Text(
+                    'Scanned : $scannedSupplier',
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.green,
+                    ),
+                  ),
+
+                const SizedBox(height: 15),
 
                 TextField(
                   controller: supplierController,
+                  enabled: false,
                   decoration: fieldDecoration("Supplier Code", Icons.person),
                 ),
 
@@ -122,6 +212,7 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
 
                 TextField(
                   controller: clearController,
+                  enabled: formUnlocked,
                   keyboardType: TextInputType.number,
                   decoration: fieldDecoration("Clear Glass (Kg)", Icons.scale),
                 ),
@@ -130,6 +221,7 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
 
                 TextField(
                   controller: coloredController,
+                  enabled: formUnlocked,
                   keyboardType: TextInputType.number,
                   decoration: fieldDecoration(
                     "Colored Glass (Kg)",
@@ -141,6 +233,7 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
 
                 TextField(
                   controller: conditionController,
+                  enabled: formUnlocked,
                   decoration: fieldDecoration("Condition", Icons.info),
                 ),
 
@@ -158,13 +251,12 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
                     style: ElevatedButton.styleFrom(
                       backgroundColor: const Color(0xFF6BCB77),
                       foregroundColor: Colors.white,
-
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(15),
                       ),
                     ),
 
-                    onPressed: submitCollection,
+                    onPressed: formUnlocked ? submitCollection : null,
                   ),
                 ),
               ],

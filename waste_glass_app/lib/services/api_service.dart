@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   static const String baseUrl =
-      'http://localhost:5297/api';
+      'http://10.91.36.1:5297/api';
 
   static Future<List<dynamic>> getSuppliers() async {
     final response =
@@ -37,4 +37,5 @@ class ApiService {
 
     throw Exception('Failed to load report');
   }
+  
 }
