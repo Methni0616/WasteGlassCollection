@@ -19,6 +19,14 @@ public class CollectionController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> SubmitCollection(CollectionRequest request)
     {
+        var existingCollection = await _context.Collections
+    .FirstOrDefaultAsync(c =>
+        c.SupplierCode == request.SupplierCode);
+
+        if (existingCollection != null)
+        {
+            return BadRequest("Collection already exists for this supplier");
+        }
         var supplier = await _context.Suppliers
             .FirstOrDefaultAsync(s => s.SupplierCode == request.SupplierCode);
 

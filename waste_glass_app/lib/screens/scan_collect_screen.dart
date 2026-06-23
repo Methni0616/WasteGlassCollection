@@ -1,6 +1,4 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 
 import 'trip_report_screen.dart';
 import '../services/database_service.dart';
@@ -45,46 +43,26 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(const SnackBar(content: Text('Please fill all fields')));
-
       return;
     }
 
-    final response = await http.post(
-      Uri.parse('http://10.91.36.1:5297/api/collection'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({
-        'supplierCode': supplierController.text,
-        'clearKg': double.parse(clearController.text),
-        'coloredKg': double.parse(coloredController.text),
-        'condition': conditionController.text,
-      }),
+    await DatabaseService.saveCollection(
+      supplierCode: supplierController.text,
+      clearKg: double.parse(clearController.text),
+      coloredKg: double.parse(coloredController.text),
+      condition: conditionController.text,
     );
 
-    if (response.statusCode == 200) {
-      await DatabaseService.saveCollection(
-        supplierCode: supplierController.text,
-        clearKg: double.parse(clearController.text),
-        coloredKg: double.parse(coloredController.text),
-        condition: conditionController.text,
-      );
+    if (!mounted) return;
 
-      if (!mounted) return;
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(const SnackBar(content: Text('Collection Saved Locally')));
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Collection Saved Successfully')),
-      );
-
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (_) => const TripReportScreen()),
-      );
-    } else {
-      if (!mounted) return;
-
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text('Failed')));
-    }
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => const TripReportScreen()),
+    );
   }
 
   InputDecoration fieldDecoration(String label, IconData icon) {

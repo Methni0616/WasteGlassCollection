@@ -22,6 +22,22 @@ public class RouteController : ControllerBase
             .OrderBy(s => s.Id)
             .ToListAsync();
 
-        return Ok(suppliers);
+        var nextSupplier = suppliers
+            .FirstOrDefault(x => x.Status == "Pending");
+
+        if (nextSupplier != null)
+        {
+            nextSupplier.Status = "Next";
+        }
+
+        // Temporary route distance
+        // Later we can calculate this using Haversine + Dijkstra
+        double totalDistance = 18.5;
+
+        return Ok(new
+        {
+            totalDistance = totalDistance,
+            suppliers = suppliers
+        });
     }
 }

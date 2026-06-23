@@ -92,6 +92,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
                 final data = snapshot.data!;
 
+                //print(data);
+
                 return Column(
                   children: [
                     Row(
@@ -157,7 +159,9 @@ class _HomeScreenState extends State<HomeScreen> {
               title: 'Collection Entry',
               icon: Icons.qr_code_scanner,
               onTap: () async {
-                final suppliers = await ApiService.getRoute();
+                final routeData = await ApiService.getRoute();
+
+                final suppliers = routeData['suppliers'];
 
                 if (!context.mounted) return;
 

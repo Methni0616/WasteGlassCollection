@@ -60,4 +60,10 @@ class DatabaseService {
 
     return await db.query('collections');
   }
+
+  static Future<void> clearCollections() async {
+  final db = await database;
+
+  await db.delete('collections');
+}
 }
