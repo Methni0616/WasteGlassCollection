@@ -2,7 +2,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'http://10.91.36.1:5297/api';
+  static const String baseUrl =
+      'https://glasstrack-api-methni-csdphea5b9bfddar.southeastasia-01.azurewebsites.net/api';
 
   static Future<List<dynamic>> getSuppliers() async {
     final response = await http.get(Uri.parse('$baseUrl/suppliers'));
@@ -33,4 +34,27 @@ class ApiService {
 
     throw Exception('Failed to load report');
   }
+  static Future<void> submitCollection({
+  required String supplierCode,
+  required double clearKg,
+  required double coloredKg,
+  required String condition,
+}) async {
+  final response = await http.post(
+    Uri.parse('$baseUrl/collection'),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: jsonEncode({
+      'supplierCode': supplierCode,
+      'clearKg': clearKg,
+      'coloredKg': coloredKg,
+      'condition': condition,
+    }),
+  );
+
+  if (response.statusCode != 200) {
+    throw Exception(response.body);
+  }
+}
 }

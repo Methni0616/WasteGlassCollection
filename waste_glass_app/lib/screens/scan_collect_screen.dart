@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import '../services/api_service.dart';
 
 import 'trip_report_screen.dart';
-import '../services/database_service.dart';
+
 import 'barcode_scanner_page.dart';
 
 class ScanCollectScreen extends StatefulWidget {
@@ -46,18 +47,22 @@ class _ScanCollectScreenState extends State<ScanCollectScreen> {
       return;
     }
 
-    await DatabaseService.saveCollection(
-      supplierCode: supplierController.text,
-      clearKg: double.parse(clearController.text),
-      coloredKg: double.parse(coloredController.text),
-      condition: conditionController.text,
-    );
+    await ApiService.submitCollection(
+  supplierCode: supplierController.text,
+  clearKg: double.parse(clearController.text),
+  coloredKg: double.parse(coloredController.text),
+  condition: conditionController.text,
+);
 
     if (!mounted) return;
 
     ScaffoldMessenger.of(
       context,
-    ).showSnackBar(const SnackBar(content: Text('Collection Saved Locally')));
+    ).showSnackBar(
+  SnackBar(
+    content: Text('Collection Saved Successfully'),
+  ),
+);
 
     Navigator.push(
       context,

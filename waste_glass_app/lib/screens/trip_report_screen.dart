@@ -1,7 +1,4 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-
 import '../services/api_service.dart';
 import '../services/database_service.dart';
 
@@ -34,15 +31,11 @@ class _TripReportScreenState extends State<TripReportScreen> {
 
     try {
       for (final item in collections) {
-        await http.post(
-          Uri.parse('http://10.91.36.1:5297/api/collection'),
-          headers: {'Content-Type': 'application/json'},
-          body: jsonEncode({
-            'supplierCode': item['supplierCode'],
-            'clearKg': item['clearKg'],
-            'coloredKg': item['coloredKg'],
-            'condition': item['condition'],
-          }),
+        await ApiService.submitCollection(
+          supplierCode: item['supplierCode'],
+          clearKg: item['clearKg'],
+          coloredKg: item['coloredKg'],
+          condition: item['condition'],
         );
       }
 
